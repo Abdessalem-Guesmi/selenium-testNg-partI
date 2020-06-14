@@ -12,3 +12,4 @@
   # I stored the data in a separate file, by the suits I recovered it and send in the web elements to test
 
   # to run the examples correctly you have to modify the static urls, ie the location of the files I used.
+let's go ;)
