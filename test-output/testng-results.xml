@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyFacebook_Application" duration-ms="120498" started-at="2020-06-14T21:22:31Z" finished-at="2020-06-14T21:24:31Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="HomePage.checkButtonTest(java.lang.reflect.Method)[pri:2, instance:com.selenium.xml.HomePage@61dd025]" name="checkButtonTest" class="com.selenium.xml.HomePage"/>
+      </group> <!-- Sanity -->
+      <group name="ETE">
+        <method signature="HomePage.checkButtonTest(java.lang.reflect.Method)[pri:2, instance:com.selenium.xml.HomePage@61dd025]" name="checkButtonTest" class="com.selenium.xml.HomePage"/>
+        <method signature="HomePage.getUrlTest(java.lang.reflect.Method)[pri:1, instance:com.selenium.xml.HomePage@61dd025]" name="getUrlTest" class="com.selenium.xml.HomePage"/>
+        <method signature="LoginPage.loginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="loginTest" class="com.selenium.xml.LoginPage"/>
+      </group> <!-- ETE -->
+    </groups>
+    <test name=" End to End" duration-ms="120498" started-at="2020-06-14T21:22:31Z" finished-at="2020-06-14T21:24:31Z">
+      <class name="com.selenium.xml.HomePage">
+        <test-method status="PASS" signature="startMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selenium.xml.HomePage@61dd025]" name="startMethodTest" is-config="true" duration-ms="28250" started-at="2020-06-14T22:23:33Z" finished-at="2020-06-14T22:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.selenium.xml.HomePage.getUrlTest(java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethodTest -->
+        <test-method status="PASS" signature="getUrlTest(java.lang.reflect.Method)[pri:1, instance:com.selenium.xml.HomePage@61dd025]" name="getUrlTest" duration-ms="26" started-at="2020-06-14T22:24:01Z" finished-at="2020-06-14T22:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.xml.HomePage.getUrlTest(java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrlTest -->
+        <test-method status="PASS" signature="endMethodTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.selenium.xml.HomePage@61dd025]" name="endMethodTest" is-config="true" duration-ms="3394" started-at="2020-06-14T22:24:01Z" finished-at="2020-06-14T22:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.xml.HomePage.getUrlTest(java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getUrlTest status=SUCCESS method=HomePage.getUrlTest(java.lang.reflect.Method)[pri:1, instance:com.selenium.xml.HomePage@61dd025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethodTest -->
+        <test-method status="PASS" signature="startMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selenium.xml.HomePage@61dd025]" name="startMethodTest" is-config="true" duration-ms="23669" started-at="2020-06-14T22:24:05Z" finished-at="2020-06-14T22:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.selenium.xml.HomePage.checkButtonTest(java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethodTest -->
+        <test-method status="PASS" signature="checkButtonTest(java.lang.reflect.Method)[pri:2, instance:com.selenium.xml.HomePage@61dd025]" name="checkButtonTest" duration-ms="130" started-at="2020-06-14T22:24:28Z" finished-at="2020-06-14T22:24:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.xml.HomePage.checkButtonTest(java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkButtonTest -->
+        <test-method status="PASS" signature="endMethodTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.selenium.xml.HomePage@61dd025]" name="endMethodTest" is-config="true" duration-ms="2613" started-at="2020-06-14T22:24:29Z" finished-at="2020-06-14T22:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.xml.HomePage.checkButtonTest(java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkButtonTest status=SUCCESS method=HomePage.checkButtonTest(java.lang.reflect.Method)[pri:2, instance:com.selenium.xml.HomePage@61dd025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethodTest -->
+      </class> <!-- com.selenium.xml.HomePage -->
+      <class name="com.selenium.xml.LoginPage">
+        <test-method status="PASS" signature="BeforSuite()[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="BeforSuite" is-config="true" duration-ms="181" started-at="2020-06-14T22:22:31Z" finished-at="2020-06-14T22:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforSuite -->
+        <test-method status="PASS" signature="BeforClass()[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="BeforClass" is-config="true" duration-ms="0" started-at="2020-06-14T22:22:31Z" finished-at="2020-06-14T22:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforClass -->
+        <test-method status="PASS" signature="BeforTest()[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="BeforTest" is-config="true" duration-ms="0" started-at="2020-06-14T22:22:31Z" finished-at="2020-06-14T22:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforTest -->
+        <test-method status="PASS" signature="startMethodTest(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="startMethodTest" is-config="true" duration-ms="39531" started-at="2020-06-14T22:22:31Z" finished-at="2020-06-14T22:23:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.xml.LoginPage.loginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethodTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="loginTest" duration-ms="15393" started-at="2020-06-14T22:23:10Z" data-provider="fromdata" finished-at="2020-06-14T22:23:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sselenium674@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public static void com.selenium.xml.LoginPage.loginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="endMethodTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="endMethodTest" is-config="true" duration-ms="7473" started-at="2020-06-14T22:23:26Z" finished-at="2020-06-14T22:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.xml.LoginPage.loginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPage.loginTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selenium.xml.LoginPage@147ed70f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethodTest -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-06-14T22:23:33Z" finished-at="2020-06-14T22:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="AfterTest" is-config="true" duration-ms="0" started-at="2020-06-14T22:24:31Z" finished-at="2020-06-14T22:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:com.selenium.xml.LoginPage@147ed70f]" name="AfterSuite" is-config="true" duration-ms="320" started-at="2020-06-14T22:24:31Z" finished-at="2020-06-14T22:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.selenium.xml.LoginPage -->
+    </test> <!--  End to End -->
+  </suite> <!-- MyFacebook_Application -->
+</testng-results>
